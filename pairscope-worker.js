@@ -56,7 +56,7 @@ const SCHEMA = [
     created_at INTEGER NOT NULL,
     expires_at INTEGER NOT NULL
   )`,
-  CREATE INDEX IF NOT EXISTS idx_orders_pending ON orders(status, reference),
+  `CREATE INDEX IF NOT EXISTS idx_orders_pending ON orders(status, reference)`,
   `CREATE TABLE IF NOT EXISTS payments (
     signature TEXT PRIMARY KEY,
     order_id TEXT,
