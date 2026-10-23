@@ -9,4 +9,4 @@ ALLOWED_ORIGIN = "https://pairscope.online"
 [[d1_databases]]
 binding = "DB"
 database_name = "pairscope"
-database_id = "PASTE_D1_ID_HERE"
+database_id = "cbd04737-cf44-4492-bfc0-fff93df4dcbd"
