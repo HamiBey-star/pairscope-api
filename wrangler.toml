@@ -1,1 +1,12 @@
+name = "pairscope-api"
+main = "pairscope-worker.js"
+compatibility_date = "2026-10-01"
 
+[vars]
+TREASURY = "YOUR_WALLET_ADDRESS"
+ALLOWED_ORIGIN = "https://pairscope.online"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pairscope"
+database_id = "PASTE_D1_ID_HERE"
