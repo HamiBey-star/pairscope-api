@@ -3,7 +3,7 @@ main = "pairscope-worker.js"
 compatibility_date = "2026-10-01"
 
 [vars]
-TREASURY = "YOUR_WALLET_ADDRESS"
+TREASURY = "FECf7U7ejLkEmrZyRH8HVAEhHNt6i2g9NhQCYN46Mebh"
 ALLOWED_ORIGIN = "https://pairscope.online"
 
 [[d1_databases]]
